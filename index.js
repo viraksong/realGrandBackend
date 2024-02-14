@@ -9,7 +9,8 @@ app.use(express.json());//specify to use json format
 
 //allow server 5000 talk to frontend 3000 on different port 
 let corspolicy = {
-    origin: "http://localhost:3000"
+    // origin: "http://localhost:3000"
+    origin: process.env.FrontendURI
 }
 app.use(cors(corspolicy));
 
