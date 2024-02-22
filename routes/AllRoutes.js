@@ -9,7 +9,7 @@ const upload = multer();
 // get: http://localhost:5000
 AllRoutes.get('/', (req, res)=>{
     console.log('reach root');
-    res.send('Welocme to realgrand backend server trigger');
+    res.send('Welocme to realgrand backend server trigger last');
 });
 
 //Get: http://localhost:5000/houses
