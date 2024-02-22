@@ -33,7 +33,7 @@ let db = async () =>{
         console.log("from index.js process.env.DBURI",process.env.DBURI);
         // await mongoose.connect("mongodb+srv://mongouser:12342024@mongodbcloud.kd4b58s.mongodb.net/sales?retryWrites=true&w=majority");
         await mongoose.connect(process.env.DBURI);
-        console.log('connected to sales realGrand DB')
+        console.log('connected to sales realGrand DB today update backend')
 
     } catch (error) {
         console.log('There was an error')
